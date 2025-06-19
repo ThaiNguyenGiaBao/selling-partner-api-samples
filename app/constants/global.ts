@@ -10,8 +10,7 @@ export const NO_CACHING_DIRECTIVE = "no-store";
 /**
  * The HTTP path where the app is accessible.
  */
-export const LOCALHOST: string =
-  "https://selling-partner-api-samples.vercel.app";
+export const LOCALHOST: string = "http://localhost:3000";
 /**
  * AWS Region for us-east-1
  */
