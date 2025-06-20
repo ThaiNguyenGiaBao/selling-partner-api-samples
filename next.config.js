@@ -37,11 +37,11 @@ module.exports = withNextIntl({
           },
           {
             key: "Access-Control-Allow-Methods",
-            value: "GET,POST,OPTIONS,PUT,PATCH,DELETE",
+            value: "*",
           },
           {
             key: "Access-Control-Allow-Headers",
-            value: "Content-Type, Authorization",
+            value: "*",
           },
           { key: "Access-Control-Allow-Credentials", value: "true" },
         ],
